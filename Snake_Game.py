@@ -3,7 +3,7 @@ import random
 
 
 
-print("Hello! Welcome to the Turtle Game!")
+print("Hello! Welcome to the Snake Game!")
 print("The objective of this one-player game is to score as many points possible by chasing after the red target.")
 print("Here are the Rules: You cannot go outside of the screen or touch the other random barriers!")
 print("Each time you do, the game is instantly over, your score resets to 0, and another barrier will be added, making the game a little trickier!")
@@ -133,7 +133,7 @@ def game():
 
     score = 0
     highest_score = 0
-    print("The game has started! You are represented by the Black Turtle! Go after the Red Target while avoiding the random shapes and going outside the boundary!")
+    print("The game has started! You are represented by the Black Snake! Go after the Red Target while avoiding the random shapes and going outside the boundary!")
     print("Press the keys w,s,d,a (up,down,right,left) to move around!")
 
     screen.onkey(up,"w")
